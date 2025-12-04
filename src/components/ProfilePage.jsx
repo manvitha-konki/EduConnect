@@ -6,13 +6,13 @@ const ProfilePage = () => {
   const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
   const user = {
-    firstName: "Neha",
-    lastName: "Kantheti",
+    firstName: "Manvitha",
+    lastName: "Konkimalla",
     location: "Chennai, India",
     position: "Student at IIITDMK",
     avatarUrl: "/avatar.jpeg", // use any avatar or image link
-    description: `Hello, I'm Neha Kantheti, student at Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram.
-I am a 3rd year CSE student passionate about tech, and trying to explore different domains in CS.`,
+    description: `Hello, I'm Manvitha Konkkimalla, student at Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram.
+I am a 4th year CSE student passionate about tech, and trying to explore different domains in CS.`,
   };
 
   const handleUpdateClick = () => {
